@@ -7,9 +7,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  // Base path for GitHub Pages - use the name of your repository
-  // If your repo is at https://github.com/username/repo-name
-  // Then set base to '/repo-name/'
-  // If deploying to a custom domain, you can remove this line
-  base: '/GrantWise/',
+  // Since you're using a custom domain (grantwise.app), 
+  // the base path should be '/' instead of '/GrantWise/'
+  base: '/',
 });
